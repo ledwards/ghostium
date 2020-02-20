@@ -52,7 +52,6 @@
   },
   "scripts": {
     "test": "grunt --verbose",
-    "postinstall": "bundle install && bower install",
     "build": "grunt build",
     "zip": "cd build; zip -r ../ghostium.zip ./*"
   }
